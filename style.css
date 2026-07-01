@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    background-color: rgba(6, 72, 126, 0.705);
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu {
+    float: left;
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(38deg, rgb(16, 69, 182) 0%, rgb(20, 66, 153) 28%, rgb(13, 76, 148) 62%, rgb(36, 91, 163) 89%);
+    margin-top: -16px;
+}
+
+.links1 {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    transition: all 0.5s ease;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho {
+    background: linear-gradient(45deg, rgb(4, 43, 77) 0%, rgb(4, 15, 77) 50%);
+    color: grey;
+    text-align: center;
+    width: 1700px;
+    height: 180px;
+    padding-top: 90px;
+}
+
+.avatar {
+    margin-top: 150px;
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+    border: 6px double black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.rodape {
+    text-align: right;
+    margin-left: 200px;
+    clear: both;
+    margin-bottom: auto;
+}
+
+.links1:hover {
+    background-color: rgb(21, 64, 102);
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#info01 {
+    margin: 1.0rem 0.5rem 0.5rem 23.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 70rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+#info02 {
+    margin: 1.0rem 0.5rem 0.5rem 1.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+#info03 {
+    margin: 1.0rem 0.5rem 0.5rem 1.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+#info04 {
+    margin: 1.0rem 0.5rem 0.5rem 1.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+#info05 {
+    margin: 1.0rem 0.5rem 0.5rem 1.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+#info06 {
+    margin: 1.0rem 0.5rem 0.5rem 1.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+#info07 {
+    margin: 1.0rem 0.5rem 0.5rem 1.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+#info08 {
+    margin: 1.0rem 0.5rem 0.5rem 1.0rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    background: #18549e;
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+}
+
+.icones_contatos{
+    width: 40px;
+    
+}
+
+.containers {
+    margin: 0rem 0rem 0rem 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 850px;
+}
+
+summary {
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 1ms ease;
+}
+
+.links2{
+    margin-left: 21rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.links2 a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(38deg, rgba(24, 84, 158, 1) 0%, rgba(37, 89, 158, 1) 28%, rgba(77, 117, 168, 1) 62%, rgba(77, 117, 168, 1) 89%);
+    border-radius: 1rem;
+    border: solid;
+    
+}
+
+.grafico{
+    margin-left: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
